@@ -29,7 +29,8 @@ type NginxClusterSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of NginxCluster. Edit nginxcluster_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	//Foo string `json:"foo,omitempty"`
+	Replicas int32 `json:"replicas"`
 }
 
 // NginxClusterStatus defines the observed state of NginxCluster
